@@ -6,7 +6,6 @@ import { routes } from "./routes"
 import logo from '../images/descarga.png'
 
 export const Navigation = () => {
-    console.log(routes);
     return (
         <Suspense fallback={<span>Loading...</span>}>
             <BrowserRouter>
